@@ -8,7 +8,113 @@ body {
 h1, h2, h3, h4, p {
     margin: 0;
 }
+
 .container {
-    max-width: 1110px; 
+    max-width: 1440px; 
     margin: 0 auto; 
+    background: #D5FAFC; 
+}
+
+.one {
+    display: inline-block;
+    background: #2EC5CE;
+    margin-right: -3px;
+    vertical-align: middle;
+    width: 445px;
+    padding: 246px 95px 246px 165px;
+}
+
+.happy {
+    /* margin: 246px 95px 246px 165px; */
+    /* padding: 100px; */
+    /* width: 445px; */
+    /* display: inline-block; */
+    /* vertical-align: middle; */
+
+
+}
+
+
+h2 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    margin-bottom: 8px;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.lead {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.two {
+    width: 530px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 40px;
+    background: #FFFFFF;
+    /* background: red; */
+
+}
+
+.quotes {
+    padding: 40px 40px 20px 410.35px;
+    display: inline-block;
+ }
+
+ .jenny_img {
+    margin-right: 16px;
+    vertical-align: middle;
+}
+
+.jenny_text {
+    margin-left: -4px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 183px;
+}
+
+.text {
+    width: 490px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 24px 0px 48px 0px;
+}
+
+.gopro {
+    display: inline-block;
+   /* background-color: blue;  */
+   margin-bottom: 40px;
+   vertical-align: middle; 
+
+}
+
+.gopro_img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 278px;
+}
+
+.left {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.right {
+    display: inline-block;
+    vertical-align: middle;
 }
