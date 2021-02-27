@@ -100,10 +100,16 @@ p {
 .left {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 20px;
+    margin-top: -3px;
+    margin-right: 40px;
+    width: 8px;
+    height: 14px;
 }
 
 .right {
     display: inline-block;
     vertical-align: middle;
+    margin-top: -3px;
+    width: 8px;
+    height: 14px;
 }
