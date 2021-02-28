@@ -1,7 +1,6 @@
 body {
-    margin: 0;
-    font-family: "Manrope", sans-serif;
-    color: #18191f;
+    font-family: 'Manrope', sans-serif;
+    color: #18191F;
     box-sizing: border-box;
 }
 
@@ -9,6 +8,104 @@ h1, h2, h3, h4, p {
     margin: 0;
 }
 .container {
-    max-width: 1110px; 
-    margin: 0 auto; 
+    max-width: 989px;
+    margin: 0 auto;
 }
+
+.headline {
+    padding: 133px 0 144px 0;
+}
+
+.headline-img {
+    position: relative; 
+    width: 395px; 
+    height: 391px; 
+    display: inline-block; 
+    vertical-align: middle; 
+    margin-right: -4px;
+}
+
+img {
+    z-index: 1;
+    position: relative;
+}
+
+.headline-img::before {
+    content: '';
+    display: block;
+    width: 540px;   
+    height: 540px;
+    background-color: #D5FAFC;
+    position: absolute;
+    top: 50%;
+    margin-top: -270px;
+    right: 50%;
+    margin-right: -270px;
+    border-radius: 270px;
+}
+
+.headline-description {
+    max-width: 444px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    margin-left: 150px;
+}
+
+.headline-description__subtitle {
+    font-size: 14px;
+    font-weight: 800;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+}
+
+.headline-description__title {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+
+.headline-description__text {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+    line-height: 32px;
+}
+
+button {
+    background-color: transparent;
+    color: #8c30f5;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #8c30f5;
+    padding: 12px 24px;
+    border-radius: 48px;
+}
+
+button:hover {
+    color: #6717c2;
+    border-color: #6717c2;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+button:focus {
+    color: #410a80;
+    border-color: #410a80;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+svg path {
+    fill: #8c30f5;
+}
+
+button:hover svg path {
+    fill: #6717c2;
+}
+
+button:focus svg path {
+    fill: #410a80;   
+}
+
+
