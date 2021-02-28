@@ -13,9 +13,11 @@ h1, h2, h3, h4, p {
     margin: 0 auto; 
 }
 .headline {
-    width: 540px;
-    height: 460px;
-    padding: 64px;
+   background-image: url(../img/pic.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   height: 500px;
 }
 
 .headline-text {
