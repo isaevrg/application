@@ -12,3 +12,20 @@ h1, h2, h3, h4, p {
     max-width: 1110px; 
     margin: 0 auto; 
 }
+
+.left {
+    display: inline-block;
+}
+
+.left-top {
+    
+}
+
+.left-bottom {
+
+}
+
+.right {
+    display: inline-block;
+    width: 444px;
+}
