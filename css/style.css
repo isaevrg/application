@@ -20,16 +20,22 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .left-top {
-    margin-bottom: 20px;
+    /* margin-bottom: -4px; */
 
+}
+
+.left-bottom {
+    margin-top: 20px;
 }
 
 .chair {
     margin-right: -4px;
+    margin-bottom: -3px;
 }
 
 .man {
     margin-left: 20px;
+    margin-bottom: -3px;
 }
 
 .chess {
@@ -40,6 +46,11 @@ h1, h2, h3, h4, h5, h6, p {
 .cup {
     vertical-align: top;
     margin-left: 20px;
+}
+
+.cup:hover {
+    background: #fff; 
+    color: #18191f;  
 }
 
 .right {
