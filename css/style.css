@@ -2,6 +2,7 @@ body {
 	background-color: #E5E5E5;
 	font-family: "GothamPro-Medium", sans-serif;
 	color: #181818;
+	
 }
 
 /* блок с шапкой и меню */
@@ -12,32 +13,52 @@ body {
 .network-header__logo {
 	text-align: center;
 	border-right: 1px solid #f4f4f4;
-	padding: 16px 0;
+	padding: 17px 0;
 	margin-right: 20px;
 }
 
-.active__header{
+/* .active__header{
     color: #181818;
 	text-align: center;
+	font-weight: 500;
+	font-size: 12px;
 
-}
+} */
 
-.active__header:hover,
+/* .active__header:hover,
 .active__heade:focus {
     color: #0275B1;
     padding: 8px 16px;
 	border-bottom: 2px solid #0275B1;
+	margin-bottom: 2px;
+} */
+
+.network-nav__link {
+
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 17px 20px;
+	font-weight: 600;
+	font-size: 12px;
 }
 
-.nav-item__header {
-    height: 80px;
-    width: 90px;
-}
-
-.active__header:hover svg path {
+.network-nav__link:hover svg path {
 	stroke: #0275B1;
 	color: #0275B1;
 
+}
+
+.network__other {
+	color: #181818;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
 }
 
 .network-nav:nth-child(5) a {
