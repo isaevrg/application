@@ -285,6 +285,24 @@ input[type="checkbox"] {
 	border: 0;
 }
 
+.container-2__google {
+	padding-top: 65px;
+}
+
+.container-2__google button {
+	background: #FFFFFF;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+	border-radius: 6px;
+	width: 426px;
+	height: 64px;
+	cursor: pointer;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	color: #000000;
+	border: 0;
+}
+
 /* конец правого блока */
 
 /* медиа-запросы */
