@@ -110,7 +110,7 @@ h1, h2, h3, h4,h5, p {
 	text-align: right;
 }
 
-.container-2__righ {
+.container-2__right {
 	text-align: right;
 }
 
@@ -126,6 +126,7 @@ h1, h2, h3, h4,h5, p {
 	line-height: 17px;
 	color:#bdbdbd;
 	text-transform: uppercase;
+	
 }
 
 .container-2__register {
@@ -138,16 +139,16 @@ h1, h2, h3, h4,h5, p {
 }
 
 .container-2__registerform h1 {
-	/* width: 415px; */
+	width: 415px;
 	font-weight: bold;
 	font-size: 30px;
 	margin-bottom: 10px;
 }
 
 .container-2__registerform p {
-	width: 411px;
-	font-weight: normal;
 	font-size: 18px;
+	line-height: 28px;
+	width: 411px;
 	color: #8692A6;
 	margin-bottom: 40px;
 	padding-bottom: 16px;
@@ -265,6 +266,23 @@ input[type="checkbox"] {
     cursor: pointer;
     z-index: 1;
     left: 0;
+}
+
+.container-2__buttom {
+	padding-top: 38px;
+}
+
+.container-2__buttom button {
+	background: #1565D8;
+	border-radius: 6px;
+	width: 426px;
+	height: 64px;
+	cursor: pointer;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	color: #FFFFFF;
+	border: 0;
 }
 
 /* конец правого блока */
