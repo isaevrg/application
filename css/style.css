@@ -3,22 +3,26 @@ body {
 	font-family: 'Inter', sans-serif;
 	box-sizing: border-box;
 	width: 1440px;
+	margin: 0 auto;
 
 }
 
 h1, h2, h3, h4,h5, p {
-	margin: 0px;
+	margin: 0;
 } 
 
-
+.network {
+	margin: 0 auto;
+}
 
 .container-1 {
 	background-image: url(../img/background.jpg);
-	/* background-repeat: no-repeat; */
+	background-repeat: no-repeat;
 	position: relative;
 	height: 1024px;
 	width: 666px;
 	display: inline-block;
+	margin-left: -15px;
 }
 
 /* начало левого блока */
@@ -84,14 +88,16 @@ h1, h2, h3, h4,h5, p {
 	width: 774px;
 	display: inline-block;
 	position: absolute;
+
 }
 
 .container-2__top {
-	padding: 74px 91px 78px 53px;
+	padding: 74px 76px 78px 38px;
 }
 
 .container-2__back {
 	cursor: pointer;
+	margin-right: 15px;
 }
 
 .container-2__back img,
@@ -108,11 +114,15 @@ h1, h2, h3, h4,h5, p {
 
 .container-2__info {
 	text-align: right;
+	margin-right: 15px;
 }
 
 .container-2__right {
 	text-align: right;
+	margin-right: 15px;
 }
+
+
 
 .container-2__info span {
 	font-size: 16px;
@@ -130,7 +140,7 @@ h1, h2, h3, h4,h5, p {
 }
 
 .container-2__register {
-	padding: 0 221px 75px 53px;
+	padding: 0 206px 75px 38px;
 }
 
 .container-2__registerform {
