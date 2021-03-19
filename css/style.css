@@ -11,10 +11,6 @@ h1, h2, h3, h4,h5, p {
 	margin: 0;
 } 
 
-.network {
-	margin: 0 auto;
-}
-
 .container-1 {
 	background-image: url(../img/background.jpg);
 	background-repeat: no-repeat;
@@ -322,9 +318,27 @@ input[type="checkbox"] {
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1440px) {
 	h1 {
 		background-color: orange;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	h1 {
+		background-color: yellow;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	h1 {
+		background-color:green;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	h1 {
+		background-color: rgb(32, 222, 243);
 	}
 }
 
@@ -335,3 +349,4 @@ input[type="checkbox"] {
 }
 
 
+/* 1920px, 1440px, 1024px, 992px, 768px, 425px, 375px, 320px. */
