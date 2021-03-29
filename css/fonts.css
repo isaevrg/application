@@ -1,17 +1,26 @@
 @font-face {
-    font-family: "Manrope-ExtraBold";
+    font-family: "Mulish-Bold";
     font-style: normal;
-    font-weight: 800;
-    src: local("Manrope ExtraBold"),
-        url("../fonts/Manrope-ExtraBold.woff2") format("woff2"),
-        url("../fonts/Manrope-ExtraBold.woff") format("woff"),
+    font-weight: 700;
+    src: local("Mulish Bold"),
+        url("../fonts/Mulish-Bold.woff2") format("woff2"),
+        url("../fonts/Mulish-Bold.woff2") format("woff"),
 }
 
 @font-face {
-    font-family: "Manrope-Medium";
+    font-family: "Mulish-SemiBold";
     font-style: normal;
-    font-weight: 500;
-    src: local("Manrope Medium"), 
-        url("../fonts/Inter-Medium.woff2") format("woff2"),
-        url("../fonts/Inter-Medium.woff") format("woff"),
+    font-weight: 600;
+    src: local("Mulish SemiBold"), 
+        url("../fonts/Mulish-SemiBold.woff2") format("woff2"),
+        url("../fonts/Mulish-SemiBold.woff") format("woff"),
+}
+
+@font-face {
+    font-family: "Mulish-Light";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Mulish Light"), 
+        url("../fonts/Mulish-Light.woff2") format("woff2"),
+        url("../fonts/Mulish-Light.woff") format("woff"),
 }
