@@ -1,7 +1,7 @@
 body {
 	font-family: "Mulish", sans-serif;
+	width: 1247px;
 	margin: 0 auto;
-	/* background-color: #0B0D17; */
 	box-sizing: border-box;
 
 }
@@ -11,5 +11,97 @@ h1, h2, h3, h4,h5, p {
 } 
 
 .header {
-	width: 1250px;
+	padding-top: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	
+}
+
+.menu a {
+	margin-left: 40px;
+	/* font-weight:  bold;  вернутся к размеру шрифтов кнопок */
+	font-size: 18px;
+	line-height: 23px;
+	color: #7D7987;
+	background-color: #ffffff;
+	text-decoration: none;
+}
+
+.home {
+	font-weight: bold;	
+}
+
+.virtual {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 84px;
+	margin-bottom: 192px;
+
+}
+
+.virtual__text {
+	width: 445px;
+	height: 337px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.virtual__text h2 {
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 56px;
+}
+
+.virtual__text p {
+	font-weight: 300;
+	font-size: 21px;
+	line-height: 32px;
+	color: #7D7987;
+}
+
+.virtual__text a {
+	background: #458FF6;
+	border-radius: 55px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 60px;
+	color: #FFFFFF;
+	width: 200px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.our_services {
+	width: 952px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.our_services h3 {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 56px;
+	color: #000000;
+	padding-bottom: 11px;
+}
+
+.our_services p {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 30px;
+	color: #7D7987;
+	padding: 31px 20px 0px 20px;
 }
