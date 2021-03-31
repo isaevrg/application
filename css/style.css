@@ -83,25 +83,69 @@ h1, h2, h3, h4,h5, p {
 	text-decoration: none;
 }
 
-.our_services {
+.our_services_text {
 	width: 952px;
 	margin: 0 auto;
 	text-align: center;
 	margin-bottom: 80px;
 }
 
-.our_services h3 {
+.our_services_text h3 {
 	font-weight: bold;
 	font-size: 36px;
 	line-height: 56px;
 	color: #000000;
-	padding-bottom: 11px;
+	padding-bottom: 13px;
 }
 
-.our_services p {
+.our_services_text p {
 	font-weight: 300;
 	font-size: 18px;
 	line-height: 30px;
 	color: #7D7987;
 	padding: 31px 20px 0px 20px;
+}
+
+.our_services_block {
+	width: 1120px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-bottom: 69px;
+
+}
+
+.our_services_icon {
+	width: 350px;
+	height: 354px;
+	background: #FFFFFF;
+	box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+	padding: 54px 45px 46px 37px;
+	border-radius: 20px;
+	margin-bottom: 37px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-sizing: border-box;
+}
+
+.our_services_icon h3 {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 56px;
+	color: #000000;
+}
+
+.our_services_icon p {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 28px;
+	color: #7D7987;
+
+}
+
+.our_services_icon img {
+	width: 95px;
+	height: 95px;
 }
