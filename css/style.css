@@ -41,7 +41,6 @@ h1, h2, h3, h4,h5, p {
 
 .virtual {
 	display: flex;
-	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 	padding-top: 84px;
@@ -81,6 +80,10 @@ h1, h2, h3, h4,h5, p {
 	width: 200px;
 	text-align: center;
 	text-decoration: none;
+}
+
+.our_services {
+	margin-bottom: 220px;
 }
 
 .our_services_text {
@@ -148,4 +151,77 @@ h1, h2, h3, h4,h5, p {
 .our_services_icon img {
 	width: 95px;
 	height: 95px;
+}
+
+.our_services a {
+	margin: 0 auto;
+	border: 1.4px solid #458FF6;
+	box-sizing: border-box;
+	border-radius: 55px;
+	color: #458FF6;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 60px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	width: 200px;
+	height: 56px;
+}
+
+.leading {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 229px;
+}
+
+.leading__text {
+	width: 486px;
+	height: 388px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.leading__text h2 {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 56px;
+	color: #000000;
+}
+
+.leading__text img {
+	width: 56px;
+	height: 2px;
+}
+
+.leading__text p {
+	width: 450px;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 30px;
+	color: #7D7987;
+}
+
+.leading__text a {
+	border: 1.4px solid #458FF6;
+	box-sizing: border-box;
+	border-radius: 55px;
+	color: #458FF6;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 60px;
+	text-align: center;
+	width: 200px;
+	height: 56px;
+}
+
+.download {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 251px;
 }
