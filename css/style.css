@@ -36,7 +36,12 @@ h1, h2, h3, h4,h5, p {
 }
 
 .home {
-	font-weight: bold;	
+	font-weight: bold;
+	color: #1F1534;	
+}
+
+.menu a:hover {
+	color: #493e68;
 }
 
 .virtual {
@@ -86,6 +91,8 @@ h1, h2, h3, h4,h5, p {
 
 .virtual__text a:hover{
 	background: #2b6fd0;
+	color: #f3f2f2;
+
 }
 
 .our_services {
@@ -178,6 +185,8 @@ h1, h2, h3, h4,h5, p {
 
 .our_services a:hover {
 	background-color: #f3f2f2;
+	color: #317ce6;
+	border: 2.8px solid #317ce6;
 }
 
 .leading {
@@ -235,6 +244,8 @@ h1, h2, h3, h4,h5, p {
 
 .leading__text a:hover {
 	background-color: #f3f2f2;
+	color: #317ce6;
+	border: 2.8px solid #317ce6;
 }
 
 .download {
@@ -297,6 +308,7 @@ h1, h2, h3, h4,h5, p {
 
 .download__text a:hover {
 	background-color: #f3f2f2;
+	color: #317ce6;
 	border: 2.8px solid #317ce6;
 }
 
@@ -403,5 +415,5 @@ h1, h2, h3, h4,h5, p {
 .view a:hover {
 	background-color: #f3f2f2;
 	color: #317ce6;
-	border: 3.9px solid #317ce6;
+	border: 2.8px solid #317ce6;
 }
