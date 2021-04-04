@@ -1,6 +1,6 @@
 body {
 	font-family: "Mulish", sans-serif;
-	width: 1247px;
+	/* width: 1247px; */
 	margin: 0 auto;
 	box-sizing: border-box;
 
@@ -9,6 +9,11 @@ body {
 h1, h2, h3, h4,h5, p {
 	margin: 0;
 } 
+
+.trafalgar {
+	width: 1247px;
+	margin: 0 auto;
+}
 
 .header {
 	padding-top: 50px;
@@ -128,7 +133,7 @@ h1, h2, h3, h4,h5, p {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	padding-bottom: 69px;
+	margin-bottom: 69px;
 
 }
 
@@ -137,13 +142,20 @@ h1, h2, h3, h4,h5, p {
 	height: 354px;
 	background: #FFFFFF;
 	box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
-	padding: 54px 45px 46px 37px;
+	padding: 0px 50px 0px 38px;
 	border-radius: 20px;
 	margin-bottom: 37px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	box-sizing: border-box;
+}
+
+.tracking {
+	width: 262px;
+	height: 142px;
+	display: flex;
+	flex-direction: column;
 }
 
 .our_services_icon h3 {
@@ -187,6 +199,11 @@ h1, h2, h3, h4,h5, p {
 	background-color: #f3f2f2;
 	color: #317ce6;
 	border: 2.8px solid #317ce6;
+}
+
+.fon__our {
+	position: absolute;
+	z-index: -1;
 }
 
 .leading {
@@ -318,8 +335,15 @@ h1, h2, h3, h4,h5, p {
 }
 
 .check {
+	
 	text-align: center;
 	margin-bottom: 79px;
+}
+
+.fon__check {
+	position: absolute;
+	z-index: -1;
+	left: 500px;
 }
 
 .check h3 {
@@ -331,6 +355,7 @@ h1, h2, h3, h4,h5, p {
 
 .check__block {
 	display: flex;	
+	flex-direction: row;
 	justify-content: space-between;
 	margin-bottom: 69px;
 }
@@ -416,4 +441,45 @@ h1, h2, h3, h4,h5, p {
 	background-color: #f3f2f2;
 	color: #317ce6;
 	border: 2.8px solid #317ce6;
+}
+
+.down__menu {
+	/* width: 1600px; */
+	height: 432px;
+	margin: 0 auto;
+	background: #67C3F3;
+}
+
+/* Медиа запросы */
+
+@media screen and (max-width: 1920px) {
+	.trafalgar {
+		width: 1247px;
+	}	
+
+}
+
+@media screen and (max-width: 1440px) {
+	.trafalgar {
+	width: 1247px;
+	}	
+}
+
+@media scren and (max-width: 1247px) {
+	.trafalgar {
+		width: 1024px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.trafalgar {
+		width: 960px;
+
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.trafalgar {
+		width: 760px;
+	}
 }
