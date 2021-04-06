@@ -4,6 +4,7 @@ body {
 	box-sizing: border-box;
 	width: 1440px;
 	margin: 0 auto;
+	background-color: hotpink;
 
 }
 
@@ -12,11 +13,10 @@ h1, h2, h3, h4,h5, p {
 } 
 
 .container {
-	width: 1120px;
+	width: 800px;
+	margin: 0 auto;
 	
 }
-
-
 
 
 
