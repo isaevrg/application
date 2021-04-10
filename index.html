@@ -12,29 +12,70 @@
     <title>2021-04-04</title>
     </head>
 <body>
-    <div class="container">
-        <div class="your-class">
-            <div>your content1</div>
-            <div>your content2</div>
-            <div>your content3</div>
-        </div>
-    </div> 
-    <a href="#"><img="image.jpg"></a>
-    <p><div>Hi, i'm a Finn!</div></p>
-    <a href="#"><img src="img/sm.jpg" alt=""></a> 
-    <p><a href="#">Hi, i'm a Finn!</a></p>
-    <a href="#"><p>Hi, i'm a Finn!</p></a>
-    <a href="#"><h2>Finn</h2></a>
+   <section class="customer">
+        <div class="container">
+            <div class="customer-slider">
+                <div class="customer-slider__wrapper">
+                    <h1>What our customer are saying</h1>
+                    <div class="customer-slider__flex">
+                        <div class="customer-slider__img">
+                            <img src="img/slider.png" alt="">
+                            <div>
+                                <h3>Edward Newgate</h3>
+                                <h4>Founder Circle</h4>
+                            </div>
+                            
+                        </div>
+                        <p>
+                            “Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”
+                        </p>
+                    </div> 
+                </div>
+                <div class="customer-slider__wrapper">
+                    <h1>What our customer are saying</h1>
+                    <div class="customer-slider__flex">
+                        <div class="customer-slider__img">
+                            <img src="img/slider.png" alt="">
+                            <div>
+                                <h3>Edward Newgate</h3>
+                                <h4>Founder Circle</h4>
+                            </div>
+                        </div>
+                        <p>
+                            “Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”
+                        </p>
+                    </div> 
+                </div>
+
+                <div class="customer-slider__wrapper">
+                    <h1>What our customer are saying</h1>
+                    <div class="customer-slider__flex">
+                        <div class="customer-slider__img">
+                            <img src="img/slider.png" alt="">
+                            <div>
+                                <h3>Edward Newgate</h3>
+                                <h4>Founder Circle</h4>
+                            </div>
+                        </div>
+                        <p>
+                            “Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+   </section>
+
         
     <script src="js/jquery.js"></script>
     <script src="slick-slider/slick.min.js"></script>
 
     
     <script>
-        $('.your-class').slick({
-            autoplay: true,
-            infinite: false,
-            dots: true
+        $('.customer-slider').slick({
+            dots: true,
+            prevArrow: '<div class="slider-arrow slider-arrow__left"></div>',
+            nextArrow: '<div class="slider-arrow slider-arrow__right"></div>'
         });
       </script>
 </body>

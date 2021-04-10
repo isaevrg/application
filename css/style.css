@@ -2,9 +2,9 @@ body {
 	color: #181818;
 	font-family: 'Inter', sans-serif;
 	box-sizing: border-box;
-	width: 1440px;
 	margin: 0 auto;
-	background-color: hotpink;
+	color: #ffffff;
+	background-color: #c9c9c9;
 
 }
 
@@ -13,10 +13,69 @@ h1, h2, h3, h4,h5, p {
 } 
 
 .container {
-	width: 800px;
+	width: 1120px;
 	margin: 0 auto;
+
 	
 }
+
+.customer-slider__wrapper {
+	padding: 64px 118px 79px 118px;
+	background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+	box-sizing: border-box;
+	border-radius: 24px;
+	outline: none;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 94px;
+	text-align: center;
+}
+
+.customer-slider__flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.customer-slider__img {
+	display: flex;
+	align-items: center;
+}
+
+img {
+	margin-right: 29px;
+}
+
+p {
+	max-width: 420px;
+}
+
+/* настройки слик слайдера собственные */
+.slider-arrow {
+	position: absolute;
+	bottom: -42px;
+	z-index: 99;
+	width: 29px;
+	height: 20px;
+	cursor: pointer;
+
+}
+
+.slider-arrow__left {
+	background: url(../img/arrow-left__unactive.png) center no-repeat;
+	right: 50%;
+
+}
+
+.slider-arrow__right {
+	background: url(../img/arrow-right__unactive.png) center no-repeat;
+	left: 50%;
+	
+}
+
 
 
 
