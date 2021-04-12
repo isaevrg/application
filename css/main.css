@@ -1,0 +1,27 @@
+body {
+  background: red;
+}
+
+button {
+  background: blue;
+}
+
+a {
+  font-weight: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.selector {
+  margin-top: 10px;
+}
+
+body {
+  background-color: blue;
+}
+
+@i {}
+/*# sourceMappingURL=main.css.map */
