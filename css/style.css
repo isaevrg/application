@@ -4,8 +4,6 @@ body {
 	box-sizing: border-box;
 	margin: 0 auto;
 	color: #ffffff;
-	background-color: #c9c9c9;
-
 }
 
 h1, h2, h3, h4,h5, p {
@@ -67,18 +65,30 @@ p {
 .slider-arrow__left {
 	background: url(../img/arrow-left__unactive.png) center no-repeat;
 	right: 50%;
-
+	margin-right: 100px;
 }
 
 .slider-arrow__right {
 	background: url(../img/arrow-right__unactive.png) center no-repeat;
 	left: 50%;
-	
+	margin-left: 100px;
 }
 
+/* Перебивка точек слайдера */
 
+.slick-dots {
+	bottom: -42px;
+}
 
+.slick-dots li button:before {
+	content: '';
+	background: url(../img/slider-dots.png) center no-repeat;
+}
 
+.slick-dots li.slick-active button:before {
+	content: '';
+	background: url(../img/slider-dots__acteive.png) center no-repeat;
+}
 
 
 
