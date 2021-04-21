@@ -14,6 +14,24 @@ h1, h2, h3, h4, p {
   margin: 0 auto;
 }
 
+@font-face {
+  font-family: 'PlayfairDisplay-Regular', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: local();
+  src: local("PlayfairDisplay-Regular");
+  src: url("../fonts/PlayfairDispay-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-Bold', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  src: local();
+  src: local("PlayfairDisplay-Bold");
+  src: url("../fonts/PlayfairDispay-Regular.ttf") format("ttf");
+}
+
 .container__header {
   max-width: 1170px;
   margin: 0 auto;
@@ -57,7 +75,7 @@ a {
 }
 
 .slider__furniture {
-  display: flex;
+  display: flex !important;
   align-items: center;
 }
 
@@ -91,24 +109,6 @@ a {
   padding: 18px 82px;
   border-radius: 0;
   cursor: pointer;
-}
-
-@font-face {
-  font-family: 'PlayfairDisplay-Regular', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  src: local();
-  src: local("PlayfairDisplay-Regular");
-  src: url("../fonts/PlayfairDispay-Regular.ttf") format("ttf");
-}
-
-@font-face {
-  font-family: 'PlayfairDisplay-Bold', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  src: local();
-  src: local("PlayfairDisplay-Bold");
-  src: url("../fonts/PlayfairDispay-Regular.ttf") format("ttf");
 }
 
 .new__furniture {
@@ -195,6 +195,30 @@ a {
   cursor: pointer;
   background: #FFFFFF;
   box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.03);
+}
+
+.container_customer {
+  background-color: blue;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.slider__customer {
+  width: 653px;
+  background-color: red;
+  margin: 0 auto;
+}
+
+.slick-initialized .slick-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 653px;
+  height: 245px;
+}
+
+.customer p {
+  text-align: center;
 }
 
 /* 1920px, 1440px, 1024px, 992px, 768px, 425px, 375px, 320px. */
