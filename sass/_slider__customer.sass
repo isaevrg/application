@@ -1,29 +1,63 @@
 .container_customer
-    background-color: blue
+    // background-color: blue
     width: 1170px
     margin: 0 auto
+    background: #F9FDFF
 
     
 .slider__customer
     width: 653px
-    background-color: red
+    // background-color: red
     margin: 0 auto
-
-
-
-
-
-    
+    margin-bottom: 100px
+   
 .slider
+    // text-align: center
 
+.customer
+    text-align: center
+    color: #444348
+    box-sizing: border-box
+    outline: none
 
+.customer__img
+    margin-bottom: 25px
+    display: flex
+    justify-content: center
 
-.slick-initialized .slick-slide
-    display: flex 
-    flex-direction: column
-    align-items: center
-    width: 653px 
-    height: 245px
+.customer h3
+    font: $font-OS-md 
+    line-height: 154.36%
+    margin-bottom: 20px
 
 .customer p
-    text-align: center
+    line-height: 154.36%
+
+/* Собственные настройки слайлера */
+
+.slider-arrow 
+    position: absolute
+    bottom: 100px
+    width: 30px
+    height: 30px
+    cursor: pointer
+
+
+.slider-arrow__left
+    background: url(../img/left.svg) center no-repeat
+    right: 105%
+
+.slider-arrow__right 
+    background: url(../img/right.svg) center no-repeat
+    left: 105%
+
+/* Перебивка точек слайдера */
+
+.slick-dots
+
+.slick-dots li button:before
+    content: ''
+    background: url(../img/uncircle.svg) center no-repeat
+
+.slick-dots li.slick-active button:befor
+    background: url(../img/circle.svg) center no-repeat
