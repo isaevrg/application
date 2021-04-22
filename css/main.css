@@ -1,6 +1,6 @@
 @charset "UTF-8";
 body {
-  font-family: 'Open Sans', 'PlayfairDisplay', sans-serif;
+  font-family: 'Open Sans', 'PlayfairDisplay', 'Avenir Next', 'Roboto', sans-serif;
   color: #18191f;
   box-sizing: border-box;
   background: #F9FDFF;
@@ -64,9 +64,8 @@ h1, h2, h3, h4, p {
   margin-right: 139px;
 }
 
-a {
+.menu a {
   text-decoration: none;
-  cursor: pointer;
   text-transform: uppercase;
   color: #18191f;
 }
@@ -263,11 +262,114 @@ a {
 
 .chance__name p {
   font-family: Playfair Display;
-  font-style: normal;
   font-weight: bold;
   font-size: 28px;
   line-height: 37px;
   letter-spacing: 0.05em;
+}
+
+.chance__name {
+  margin-bottom: 37px;
+}
+
+.chance__menu {
+  width: 275px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.chance__menu a {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.chance__menu a:nth-child(1) {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+.bottom {
+  margin-bottom: 10px;
+}
+
+.bottom__logo {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.logo_bottom {
+  margin-right: 633px;
+}
+
+.menu__bottom {
+  width: 505px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__bottom a {
+  font-family: Avenir Next;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #303032;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+}
+
+.contacts p {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 19px;
+  color: #303032;
+}
+
+.telephone {
+  display: flex;
+  margin-right: 51px;
+  cursor: pointer;
+}
+
+.telephone img {
+  margin-right: 7px;
+}
+
+.e-mail {
+  display: flex;
+  cursor: pointer;
+}
+
+.e-mail img {
+  margin-right: 7px;
+}
+
+.callium {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.callium p {
+  font-family: Avenir Next;
+  font-size: 10px;
+  line-height: 15px;
+  color: #000000;
+  opacity: 0.2;
 }
 
 /* 1920px, 1440px, 1024px, 992px, 768px, 425px, 375px, 320px. */
