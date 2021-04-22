@@ -260,6 +260,10 @@ h1, h2, h3, h4, p {
   background: #F9FDFF;
 }
 
+.last__chance {
+  margin-bottom: 167px;
+}
+
 .chance__name p {
   font-family: Playfair Display;
   font-weight: bold;
@@ -295,6 +299,50 @@ h1, h2, h3, h4, p {
   line-height: 25px;
   text-decoration-line: underline;
   color: #000000;
+}
+
+.chairs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chairs p {
+  font: 400 16px "Open sans", sans-serif;
+  line-height: 22px;
+  margin: 31px 0px 0px 23px;
+  color: #000000;
+}
+
+.chair {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 355px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  margin-left: 23px;
+}
+
+.price h2 {
+  font: 600 28px "Open sans", sans-serif;
+  margin-right: 11px;
+}
+
+.price h3 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration-line: line-through;
+  color: #303032;
+  opacity: 0.5;
 }
 
 .bottom {
