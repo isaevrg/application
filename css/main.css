@@ -98,10 +98,17 @@ h1, h2, h3, h4, p {
 
 .header__slider__furniture__text button {
   width: 238px;
-  text-transform: uppercase;
   padding: 18px 82px;
   border-radius: 0;
   cursor: pointer;
+  background: #303032;
+}
+
+.header__slider__furniture__text button p {
+  color: #FFFFFF;
+  font: 400 16px "Open sans", sans-serif;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
 }
 
 .new__furniture {
